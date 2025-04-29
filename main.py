@@ -37,8 +37,8 @@ bot = Client("bot",
              api_id= API_ID,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
              api_hash=API_HASH)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
-owner_id = [1003575883]
-auth_users = [1003575883,5536012306]
+owner_id = [7521593568]
+auth_users = [7521593568,1727542582]
 photo1 = 'https://envs.sh/PQ_.jpg'
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")    
 photo = "photo.jpg"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
@@ -54,8 +54,8 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="tg://chitijrajput"),
-            InlineKeyboardButton(text="🔍 Channel", url="https://t.me/chitijrajput"),
+            InlineKeyboardButton(text="📞 Contact", url="tg://srikrishnavidyarthi"),
+            InlineKeyboardButton(text="🔍 Channel", url="https://t.me/goatcouse"),
         ],
     ]
 )
@@ -89,7 +89,7 @@ async def start_command(bot: Client, message: Message):
 <blockquote>🌟 <b>Welcome Buddy....! ☠️!</b> 🌟</blockquote><br><br>
 
 /help <b>to know about all the commonds</b> 📄 <br><br>
-<b>Contact Me</b> [🅱🅴🅰🆂🆃 👑](tg://user?id=7517045929)<b>to Get The Subscription</b> 🎫<br>
+<b>Contact Me</b> [🅱🅴🅰🆂🆃 👑](tg://user?id=7521593568)<b>to Get The Subscription</b> 🎫<br>
 """)
     await asyncio.sleep(1)
     await loading_message.edit_text(
@@ -137,7 +137,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-YOUR_ADMIN_ID = 1003575883
+YOUR_ADMIN_ID = 7521593568
 
 # Function to read subscription data
 def read_subscription_data():
@@ -221,7 +221,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 1003575883
+YOUR_ADMIN_ID = 7521593568
 
 # Helper function to check admin privilege
 def is_admin(user_id):
